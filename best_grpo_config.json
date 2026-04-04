@@ -1,0 +1,18 @@
+{
+  "lr": 2e-06,
+  "beta": 0.01,
+  "num_generations": 24,
+  "batch_size": 2,
+  "grad_accum": 4,
+  "max_new_tokens": 512,
+  "temperature": 0.6,
+  "weight_decay": 0.005,
+  "warmup_steps": 60,
+  "max_steps": 260,
+  "max_samples": 8000,
+  "top_p": 0.9,
+  "format_bonus": 0.1,
+  "reward_threshold": 0.3,
+  "max_grad_norm": 1.5,
+  "max_prompt_tokens": 3072
+}
